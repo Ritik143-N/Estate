@@ -1,0 +1,7 @@
+# {% load static %}
+# {% csrf_token %}   
+# {% static 'img/profile-b.jpg' %}
+#<link rel="stylesheet" href="{% static 'styles.css' %}">
+#<script src="{% static 'js/aos.js' %}"></script>
+#{% static '' %}
+#background-image: url("/static//img/p-bg.jpg");

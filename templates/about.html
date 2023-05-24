@@ -1,0 +1,368 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>CITY Real Estate - Responsive HTML5 Landing Page Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="{% static 'css/colors.css' %}">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="{% static 'css/versions.css' %}">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slideshow.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/prettyPhoto.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-theme.min.css.css' %}">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="{% static 'js/modernizer.js' %}"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="realestate_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <header class="header header_style_01">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="{% static 'images/logos/logo.png' %}" alt="image"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a class="active" href="/about/">About us </a></li>
+                        <li><a href="/service/">Service</a></li>
+                        <li><a href="/gallery/">Gallery</a></li>
+                        <li><a href="/properties/">Properties</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                        <li class="social-links"><a href="https://twitter.com/RizuL_xd?t=c7iFHH-IZNXXj9hM2DwZWQ&s=09" target="_blank"><i class="fa fa-twitter global-radius"></i></a></li>
+                        <li class="social-links"><a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook global-radius"></i></a></li>
+                        <li class="social-links"><a href="https://www.linkedin.com/in/rizul-sharma11" target="_blank"><i class="fa fa-linkedin global-radius"></i></a></li>
+						<li class="search-option">
+							<button class="search tran3s dropdown-toggle" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
+							<form action="#" class="p-color-bg dropdown-menu tran3s" aria-labelledby="searchDropdown">
+								<input type="text" placeholder="Search....">
+								<button class="p-color-bg"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+					   </li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+	
+	<div class="all-title-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>About Us</h2>
+					<!-- Breadcrumbs -->
+					<nav id="breadcrumbs">
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li>About Us</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="about-box">
+		<div class="container">
+			<div class="row">
+				<div class="top-feature owl-carousel owl-theme">
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="{% static 'uploads/icon-01.png' %}" class="img-responsive" alt=""></div>
+							<h4><a href="#">Full Furnished</a></h4>
+							<p>No more investing in heavy furniture. Moving into a furnished apartment helps you save money</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="{% static 'uploads/icon-02.png' %}" class="img-responsive" alt=""></div>
+							<h4><a href="#">Living Inside a Nature</a></h4>
+							<p>Being in nature, or even viewing scenes of nature, reduces anger, fear, and stress and increases pleasant feelings.</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="{% static 'uploads/icon-03.png' %}" class="img-responsive" alt=""></div>
+							<h4><a href="#">Luxurious Fittings</a></h4>
+							<p>From exquisite clubhouses, in-house badminton and racquet courts, mini-theatres, arcade rooms, branded gyms</p>
+						</div> 
+					</div>
+					<div class="item">
+						<div class="single-feature">
+							<div class="icon"><img src="{% static 'uploads/icon-04.png' %}" class="img-responsive" alt=""></div>
+							<h4><a href="#">Non Stop Security</a></h4>
+							<p>An important aspect of management of a housing society is the maintaining security aspects.</p>
+						</div> 
+					</div>
+				</div>
+			</div>
+			
+			<hr class="hr1">
+			
+			<div class="row">
+				<div class="col-md-6">
+                    <div class="post-media wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                        <img src="{% static 'uploads/about_bg.jpg' %}" alt="" class="img-responsive">                        
+                    </div><!-- end media -->
+                </div>
+				<div class="col-md-6">
+					<div class="message-box right-ab">
+                        <h4>Awards Winning Real Estate Company</h4>
+                        <h2>Welcome to CITY Real Estate</h2>
+                        <p>At CITY Real Estate, we envision creating a better tomorrow for India, and in order to turn that vision into reality, we have worked relentlessly since 1987 to provide world-class real estate services for people.</p>
+						<p>At CRE, we take pride in our uncompromising integrity in customer engagement and quality assurance, and throughout our long legacy, we have made it our core mission to provide real-estate development, management, and investment services of the highest calibre.</p>
+						<a href="#" class="btn btn-light btn-radius grd1 btn-brd"> Read More </a>
+                    </div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+    <div id="testimonials" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>Happy Customers</h3>
+                    <p class="lead">When our customers are pleased, we are pleased. Our customer's approval and smile mean the world to us..</p>
+                </div><!-- end col -->
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">Cooperation from staff is very good as they once helped me when I got sick.</p>
+								
+                            </div>
+                            <div class="testi-meta">
+                               
+                                <h4>Mr. Kuljit Singh <small>- Retd. from Army</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">It's very safe around here , our kids can play at night.</p>
+                            </div>
+                            <div class="testi-meta">
+                               
+                                <h4>Mr. Dhavan <small>- Businessman</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">The atmosphere provided to is here us very relaxing and satisfying.</p>
+                            </div>
+                            <div class="testi-meta">
+                                
+                                <h4>Mr. Vinod Jain<small>- Businessman</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">They have got my project on time with a highly skilled, experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                
+                                <h4>Ms. Samina <small>- Designer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">Living here at City Residency changed our thoughts about the concept of group housings .</p>
+                            </div>
+                            <div class="testi-meta">
+                                
+                                <h4>Ms. Ekpreet Kaur<small>- Student</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team! <i class="fa fa-quote-right"></i></h3>
+                                <p class="lead">I was intrigued by the beauty and greenery of this place and immediately decided to live here on.</p>
+                            </div>
+                            <div class="testi-meta">
+                                
+                                <h4>Mr. Shubham Rana<small>- Software Developer</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <img src="{% static 'images/logos/logo-realestate.png' %}" alt="">
+                        </div>
+                        <p>With 12.01 million Sq. Mtr. of delivered space in real estate and construction contracting, CityRealEstate is one of India leading and most trusted real estate companies.Eventually, the company diversified into real estate sector in 2001 and got listed on both stock exchanges in 2007</p>
+                        <p>It is currently undertaking 23 real estate projects – 4 Group Housing, 14 Townships, 5 Commercial Malls/office spaces/Hotels/ SCOs.</p>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Info Link</h3>
+                        </div>
+
+                        <ul class="twitter-widget footer-links">
+                            <li><a href="/"> Home </a></li>
+                            <li><a href="/about/"> About Us </a></li>
+                            <li><a href="/service/"> Services</a></li>
+							<li><a href="/gallery/"> Gallery</a></li>
+							<li><a href="/properties/"> Properties</a></li>
+							<li><a href="/contact./"> Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+				<div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li><a href="https://t.ly/-qmx"></a>City Real Estate, 7, LSC, Kalkaji, New Delhi - 110019 (India)</li>
+                            <li>+91 7018284386</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Social</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="https://www.facebook.com/login/" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+                            <li><a href=" https://github.com/rizul11"   target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                            <li><a href="https://twitter.com/RizuL_xd?t=c7iFHH-IZNXXj9hM2DwZWQ&s=09" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+                            
+                            <li><a href="#"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">City Real Estate</a> Design By : <a href="https://html.design/">html design</a></p>
+                </div>
+
+                <div class="footer-right">
+                    <form method="get" action="#">
+                        <input placeholder="Subscribe our newsletter.." name="search">
+                        <i class="fa fa-envelope-o"></i>
+                    </form>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="{% static 'js/all.js' %}"></script>
+    <script src="{% static 'js/animate.js' %}"></script>
+    <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+    <script src="{% static 'js/jquery.vide.js' %}"></script>
+    <script src="{% static 'js/modernizer.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.js' %}"></script>
+    <script src="{% static 'js/retina.js' %}"></script>
+    <script src="{% static 'js/scroll.js' %}"></script>
+    <!-- ALL PLUGINS -->
+    <script src="{% static 'js/custom.js' %}"></script>
+    <script src="{% static 'js/portfolio.js' %}"></script>
+    <script src="{% static 'js/hoverdir.js' %}"></script>    
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+   <!-- MAP & CONTACT -->
+   <script src="{% static 'js/map.js' %}"></script>
+
+</body>
+</html>
